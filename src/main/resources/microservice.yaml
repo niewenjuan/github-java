@@ -7,12 +7,12 @@ service_description:
 cse:
   service:
     registry:
-      address: https://cse.kweci03rg00fsp.cmc.cn:443
+      address: https://cse.cn-cmcc1.huaweitest.cmecloud.cn:443
       instance:
         watch: false
   config:
     client:
-      serverUri: https://cse.kweci03rg00fsp.cmc.cn:443
+      serverUri: https://cse.cn-cmcc1.huaweitest.cmecloud.cn:443
       refreshMode: 1
       refresh_interval: 5000
   #monitor:
